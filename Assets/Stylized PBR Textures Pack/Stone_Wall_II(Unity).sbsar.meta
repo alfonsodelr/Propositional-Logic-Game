@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: cf3ddd19ccceaf94ebfd6a5d5986d27a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 0
+  mGraphInstanceData:
+  - graphLabel: Stone_Wall_II
+    prototypeName: Stone_Wall_II
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Stone_Wall_II\" label=\"\" >\n  <presetinput
+      identifier=\"Wall_Brightness\" uid=\"2692314025\" type=\"0\" value=\"-0.05\"
+      />\n  <presetinput identifier=\"Wall_Hue\" uid=\"2692313975\" type=\"0\" value=\"0.427\"
+      />\n  <presetinput identifier=\"Wall_Saturation\" uid=\"2692313739\" type=\"0\"
+      value=\"0.799\" />\n  <presetinput identifier=\"Stone_Contrast\" uid=\"2692313875\"
+      type=\"0\" value=\"0.32\" />\n  <presetinput identifier=\"Stone_Brightness\"
+      uid=\"2692313889\" type=\"0\" value=\"-0.12\" />\n  <presetinput identifier=\"Stone_Saturation\"
+      uid=\"2692313949\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Pattern_Type\"
+      uid=\"2692313794\" type=\"4\" value=\"4\" />\n  <presetinput identifier=\"Pattern_Brightness\"
+      uid=\"2692313624\" type=\"0\" value=\"0.542\" />\n  <presetinput identifier=\"Pattern_Hue\"
+      uid=\"2692313840\" type=\"0\" value=\"0.05\" />\n  <presetinput identifier=\"Pattern_Saturation\"
+      uid=\"2692313611\" type=\"0\" value=\"1\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _BUMPMAP _MAINTEX _METALLICGLOSSMAP _NORMALMAP
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: -8225127603028408268, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: -2564499355375781210, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: 5852883446334635567, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: Roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: metallic
+      usageName: metallic
+      channelStr: metallic
+      label: Metallic
+      usage: 34
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: source
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: source
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Stone_Wall_II - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Stone_Wall_II - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Stone_Wall_II - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Stone_Wall_II - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 0
+    material: {fileID: 526593554962291167, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+    generatedTextures:
+    - {fileID: -2564499355375781210, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+    - {fileID: -8225127603028408268, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
+    - {fileID: 5852883446334635567, guid: cf3ddd19ccceaf94ebfd6a5d5986d27a, type: 3}
