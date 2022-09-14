@@ -1,2 +1,1 @@
-# Discrete-Math-Project
-Final Project
+# Propositional Logic Card Game
